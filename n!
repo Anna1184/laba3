@@ -1,0 +1,6 @@
+import math
+a = int(input())
+k = 0
+for i in range(math.factorial(a))
+    k += 1
+print(k)
