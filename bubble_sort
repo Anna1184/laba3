@@ -1,0 +1,15 @@
+def bubble(n):
+    l=len(n)
+    for i in range(0, l):
+        for j in range(0, l-i-1):
+            if n[j]>n[j+1]:
+                k=n[j]
+                n[j]=n[j+1]
+                n[j+1]=k 
+arr=[]
+m=int(input('Длина массива'))
+for i in range(0,m):
+    e=int(input('массив['+str(i+1)+']='))
+    arr.append(e)
+bubble(arr)
+print(arr)
