@@ -1,0 +1,5 @@
+a = int(input())
+k =0
+for i in range(a**3):
+    k += 1
+print(k)
